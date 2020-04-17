@@ -10,7 +10,7 @@ public class game {
 
         Scanner input = new Scanner(System.in);
         Random rm = new Random();
-        num2 = rm.nextInt(10);
+        num2 = (rm.nextInt(10)+1);
         System.out.println("I am thinking about a number between 1 and 10...");
         System.out.println("Can you guess it?");
         num1 = input.nextInt();
